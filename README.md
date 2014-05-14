@@ -9,14 +9,34 @@ var kcomb = require("foreach-combination")
 
 var array = [1, 2, 3, "a", "b", "c"]
 
-kcomb(array, 3, function(x,y) {
-  console.log(x, y)
+kcomb(array, 3, function(x,y,z) {
+  console.log(x, y, z)
 })
 ```
 
 Output:
 
 ```javascript
+1 2 3
+1 2 'a'
+1 2 'b'
+1 2 'c'
+1 3 'a'
+1 3 'b'
+1 3 'c'
+1 'a' 'b'
+1 'a' 'c'
+1 'b' 'c'
+2 3 'a'
+2 3 'b'
+2 3 'c'
+2 'a' 'b'
+2 'a' 'c'
+2 'b' 'c'
+3 'a' 'b'
+3 'a' 'c'
+3 'b' 'c'
+'a' 'b' 'c'
 ```
 
 # Install
