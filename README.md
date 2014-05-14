@@ -30,7 +30,7 @@ If you want to use this in a browser, then you should use [browserify](http://br
 # API
 
 #### `require("foreach-combination")(array, k, visit(x1,x2,...,xk)`
-Visits all `k` size combinations in array.
+Visits all `k` size combinations in array in lexicographic order.
 
 * `array` is an array
 * `k` is the size of the combination to visit

@@ -1,0 +1,37 @@
+{
+  "name": "foreach-combination",
+  "version": "1.0.0",
+  "description": "Visit all k combinations of an array in lexicographic order",
+  "main": "forcomb.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tape": "^2.12.3"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/foreach-combination.git"
+  },
+  "keywords": [
+    "combination",
+    "visit",
+    "iterate",
+    "permutation",
+    "k",
+    "comb",
+    "combinatorics",
+    "array"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/foreach-combination/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/foreach-combination"
+}
